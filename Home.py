@@ -20,7 +20,7 @@ st.sidebar.info(
 st.sidebar.title("Support")
 st.sidebar.info(
     """
-    - You are not IN the universe, you ARE the universe, an intrinsic part of it -
+    - - You are not IN the universe, you ARE the universe, an intrinsic part of it -
     """
 )
 
@@ -45,7 +45,7 @@ st.markdown(
 
 row1_col1, row1_col2 = st.columns(2)
 with row1_col1:
-    st.image("https://github.com/giswqs/data/raw/main/timelapse/spain.gif")
+    st.image("https://github.com/giswqs/data/raw/main/timelapse/indonesia.gif")
     st.image("https://github.com/giswqs/data/raw/main/timelapse/las_vegas.gif")
 
 with row1_col2:
