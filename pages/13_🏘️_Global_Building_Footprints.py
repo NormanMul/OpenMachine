@@ -20,9 +20,8 @@ st.sidebar.info(
 st.sidebar.title("Xenox")
 st.sidebar.info(
     """
-   
+   """
 )
-
 hide_st_style = """
             <style>
             #MainMenu {visibility: hidden;}
@@ -31,6 +30,7 @@ hide_st_style = """
             </style>
             """
 st.markdown(hide_st_style, unsafe_allow_html = True)
+
 
 st.title("Global Building Footprints")
 
