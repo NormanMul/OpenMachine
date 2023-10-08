@@ -3,6 +3,17 @@ import leafmap.foliumap as leafmap
 
 st.set_page_config(layout="wide")
 
+
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+
+
+
 st.sidebar.title("About")
 st.sidebar.info(
     """
@@ -37,19 +48,9 @@ st.markdown(
 st.info("Click on the left sidebar menu to navigate to the different apps.")
 
 st.subheader("Timelapse of Satellite Imagery")
-st.markdown(
-    """
-   
-"""
-)
+st.markdown(hide_st_style, unsafe_allow_html = True)
 
-hide_st_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            header {visibility: hidden;}
-            </style>
-            """
+
 
 row1_col1, row1_col2 = st.columns(2)
 with row1_col1:
