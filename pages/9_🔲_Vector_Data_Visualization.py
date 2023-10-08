@@ -69,7 +69,7 @@ def app():
 
         url = st.text_input(
             "Enter to a vector dataset",
-            "https://github.com/NormanMul/OpenMachine/tree/main/data/us_states.geojson",
+            "https://github.com/NormanMul/OpenMachine/tree/raw/master/us_states.geojson",
         )
 
         data = st.file_uploader(
