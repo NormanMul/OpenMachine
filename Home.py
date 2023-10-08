@@ -43,6 +43,14 @@ st.markdown(
 """
 )
 
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+
 row1_col1, row1_col2 = st.columns(2)
 with row1_col1:
     st.image("https://github.com/giswqs/data/raw/main/timelapse/spain.gif")
