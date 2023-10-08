@@ -68,7 +68,7 @@ def app():
             import leafmap.deck as leafmap
 
         url = st.text_input(
-            "Enter a URL to a vector dataset",
+            "Enter to a vector dataset",
             "https://github.com/NormanMul/OpenMachine/raw/master/data/us_states.geojson",
         )
 
