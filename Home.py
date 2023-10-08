@@ -55,7 +55,6 @@ st.markdown(hide_st_style, unsafe_allow_html = True)
 row1_col1, row1_col2 = st.columns(2)
 with row1_col1:
     st.image("https://github.com/giswqs/data/raw/main/timelapse/spain.gif")
-    st.image("https://github.com/NormanMul/Inariskviktorits/blob/main/petaindonesia.gif")
     st.image("https://github.com/giswqs/data/raw/main/timelapse/las_vegas.gif")
     
     
@@ -63,4 +62,3 @@ with row1_col1:
 with row1_col2:
     st.image("https://github.com/giswqs/data/raw/main/timelapse/goes.gif")
     st.image("https://github.com/giswqs/data/raw/main/timelapse/fire.gif")
-    st.image("https://github.com/opengeos/data/tree/main/gif/river.gif")
