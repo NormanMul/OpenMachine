@@ -69,7 +69,7 @@ def app():
 
         url = st.text_input(
             "Enter a URL to a vector dataset",
-            "https://github.com/giswqs/streamlit-geospatial/raw/master/data/us_states.geojson",
+            "https://github.com/NormanMul/OpenMachine2/tree/raw/master/app/indonesia-edit.geojson",
         )
 
         data = st.file_uploader(
