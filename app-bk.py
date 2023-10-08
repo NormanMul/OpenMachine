@@ -10,7 +10,6 @@ from apps import (
     gee_datasets,
     heatmap,
     home,
-    housing,
     # hurricane,
     plotly_maps,
     raster,
@@ -30,7 +29,6 @@ apps = MultiApp()
 apps.add_app("Home", home.app)
 apps.add_app("Create Timelapse", timelapse.app)
 # apps.add_app("Hurricane Mapping", hurricane.app)
-apps.add_app("U.S. Real Estate Data", housing.app)
 apps.add_app("U.S. Census Data", census.app)
 apps.add_app("Visualize Raster Data", raster.app)
 apps.add_app("Visualize Vector Data", vector.app)
