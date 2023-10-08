@@ -47,9 +47,10 @@ row1_col1, row1_col2 = st.columns(2)
 with row1_col1:
     st.image("https://github.com/giswqs/data/raw/main/timelapse/spain.gif")
     st.image("https://github.com/giswqs/data/raw/main/timelapse/las_vegas.gif")
-    st.image("https://id.m.wikipedia.org/wiki/Berkas:IndonesianElections.gif")
+    st.image("https://upload.wikimedia.org/wikipedia/commons/9/93/IndonesianElections.gif")
     
 
 with row1_col2:
     st.image("https://github.com/giswqs/data/raw/main/timelapse/goes.gif")
     st.image("https://github.com/giswqs/data/raw/main/timelapse/fire.gif")
+    st.image("https://github.com/opengeos/data/tree/main/gif/river.gif")
