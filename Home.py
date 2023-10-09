@@ -54,11 +54,12 @@ st.markdown(hide_st_style, unsafe_allow_html = True)
 
 row1_col1, row1_col2 = st.columns(2)
 with row1_col1:
-    st.image("https://github.com/giswqs/data/raw/main/timelapse/spain.gif")
-    st.image("https://github.com/giswqs/data/raw/main/timelapse/las_vegas.gif")
+    st.image("https://github.com/NormanMul/OpenMachine/raw/main/data/spain.gif")
+    st.image("https://github.com/NormanMul/OpenMachine/raw/main/data/las_vegas.gif")
+    st.image("https://github.com/NormanMul/OpenMachine/raw/main/data/river.gif")
     
     
 
 with row1_col2:
-    st.image("https://github.com/giswqs/data/raw/main/timelapse/goes.gif")
+    st.image("https://github.com/NormanMul/OpenMachine/raw/main/data/goes.gif")
     st.image("https://github.com/NormanMul/OpenMachine/raw/main/data/fire.gif")
