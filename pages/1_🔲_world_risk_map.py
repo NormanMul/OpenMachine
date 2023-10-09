@@ -27,7 +27,6 @@ with st.expander("See source code"):
     with st.echo():
         m = leafmap.Map()
         m.add_basemap("Stamen.Terrain")
-        m.add_heatmap_demo()
         m.add_scatter_plot_demo()
         m.add_legend(title='ESA Land Cover', builtin_legend='ESA_WorldCover')
 
