@@ -24,6 +24,18 @@ st.sidebar.info(
     """
 )
 
+st.title("Panel Map")
+
+with st.expander("See source code"):
+    with st.echo():
+        m = leafmap.Map()
+        m.split_map(
+            left_layer='https://opendata.digitalglobe.com/events/california-fire-2020/post-event/2020-08-14/pine-gulch-fire20/10300100AAC8DD00.tif', right_layer='OpenTopoMap'
+        )
+        m.add_legend(title='ESA Land Cover', builtin_legend='ESA_WorldCover')
+
+m.to_streamlit(height=700)
+
 st.title("Split-panel Map")
 
 with st.expander("See source code"):
@@ -37,14 +49,4 @@ with st.expander("See source code"):
 m.to_streamlit(height=700)
 
 
-st.title("Split-panel Map2")
 
-with st.expander("See source code"):
-    with st.echo():
-        m = leafmap.Map()
-        m.split_map(
-            left_layer='https://opendata.digitalglobe.com/events/california-fire-2020/post-event/2020-08-14/pine-gulch-fire20/10300100AAC8DD00.tif', right_layer='OpenTopoMap'
-        )
-        m.add_legend(title='ESA Land Cover', builtin_legend='ESA_WorldCover')
-
-m.to_streamlit(height=700)
