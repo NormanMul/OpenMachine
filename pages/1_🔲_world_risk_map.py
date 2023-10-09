@@ -31,3 +31,9 @@ with st.expander("See source code"):
 
 m.to_streamlit(height=700)
 
+
+pre_event_tile = (
+    'https://titiler.xyz/mosaicjson/anonymous.layer_pqmra/tiles/{z}/{x}/{y}@1x?'
+)
+m.add_tile_layer(pre_event_tile, name="Pre-event", attribution="Maxar")
+m
