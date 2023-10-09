@@ -45,8 +45,7 @@ st.markdown(
     """
 )
 
-st.info("welcome to OpenMachine - Create tommorow beyond imagination
-         Click on the left sidebar menu to navigate to the different apps.")
+st.info("welcome to OpenMachine - Create tommorow beyond imagination - Click on the left sidebar menu to navigate to the different apps.")
 
 st.subheader("Timelapse of Satellite Imagery")
 st.markdown(hide_st_style, unsafe_allow_html = True)
