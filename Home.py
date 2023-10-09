@@ -61,4 +61,4 @@ with row1_col1:
 
 with row1_col2:
     st.image("https://github.com/giswqs/data/raw/main/timelapse/goes.gif")
-    st.image("https://github.com/giswqs/data/raw/main/timelapse/fire.gif")
+    st.image("https://github.com/NormanMul/OpenMachine/raw/main/data/fire.gif")
