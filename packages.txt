@@ -1,5 +1,4 @@
 ffmpeg
-leafmap
 gifsicle
 build-essential
 python3-dev
